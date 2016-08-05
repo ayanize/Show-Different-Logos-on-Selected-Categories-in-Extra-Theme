@@ -155,7 +155,7 @@
 
 						<!-- Logo -->
 						<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'fixed_nav_logo_height', '51' ) ); ?>">
-						<!--the below action hook has to be added--->
+						<!--the below action hook has to be added -->
 							<?php do_action('et_header_output');?>
 						</a>
 
